@@ -1,15 +1,25 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, TextInput } from "react-native";
 
 export const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: 'blue',
-      alignItems: 'center',
-      justifyContent: 'center',
+      backgroundColor:"black",
+      alignItems:"flex-start"
     },
     textName:{
-      color: 'red',
-      fontSize: 45,
-      fontStyle:"italic",
+      color: 'white',
+      fontSize: 24,
+      marginTop: 40,
+      marginLeft:10
+    },
+    TextInput:{
+       backgroundColor:"white",
+       marginLeft:10,
+       marginTop:15,
+       width:200,
+       height:40,
+       borderRadius:5, 
+       padding:10,
     }
+
   });

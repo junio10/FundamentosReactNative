@@ -1,4 +1,4 @@
-import { StyleSheet, TextInput } from "react-native";
+import { Button, StyleSheet, TextInput } from "react-native";
 
 export const styles = StyleSheet.create({
     container: {
@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
       marginTop: 40,
       marginLeft:10
     },
-    TextInput:{
+    textInput:{
        backgroundColor:"white",
        marginLeft:10,
        marginTop:15,
@@ -20,6 +20,19 @@ export const styles = StyleSheet.create({
        height:40,
        borderRadius:5, 
        padding:10,
+    },
+    textButton: {
+      color: 'white',
+      
+    },
+    button:{
+      backgroundColor:'blue',
+      height:60,
+      width:200,
+      alignItems: 'center',
+      justifyContent: 'center',
+      marginTop:15,
+      marginLeft:10
     }
 
   });

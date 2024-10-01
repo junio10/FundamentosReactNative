@@ -16,23 +16,24 @@ export const styles = StyleSheet.create({
        backgroundColor:"white",
        marginLeft:10,
        marginTop:15,
-       width:200,
-       height:40,
+       marginRight:10,
+       height:"10%",
        borderRadius:5, 
        padding:10,
     },
     textButton: {
-      color: 'white',
-      
+      color: 'white',    
     },
     button:{
       backgroundColor:'blue',
-      height:60,
-      width:200,
+      height:"10%",
       alignItems: 'center',
       justifyContent: 'center',
       marginTop:15,
-      marginLeft:10
-    }
-
+      marginHorizontal:10,
+    },
+    form:{
+      flex:1,
+      width:'100%',
+    },
   });
